@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "tilt-neon";
+    src: url("../fonts/TiltNeon-Regular-VariableFont_XROT\,YROT.woff2") format("woff2");
+    font-style: normal;
+}
+
+:root {
+    font-family: "tilt-neon", Arial, Helvetica, sans-serif, system-ui, -apple-system;
+}

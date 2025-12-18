@@ -1,0 +1,39 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home .header-tagline {
+    background-image: url("../images/banner.jpg");
+    object-fit: fill;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    padding: 5rem;
+    color: var(--neon-red);
+    text-align: center;
+    width: 100%;
+    box-shadow: 2px 2px 10px 10px var(--neon-red);
+}
+
+.home .header-tagline h1 {
+    font-size: 5rem;
+}
+
+.home .header-tagline h3 {
+    font-size: 2rem;
+    font-style: italic;
+    background-color: var(--neon-dark-magenta-purple);
+    padding: .5rem 1rem;
+    box-shadow: 2px 2px 10px 2px var(--neon-red) inset;
+    border-radius: 5px;
+}
+
+.home .description {
+    margin-top: 1rem;
+    font-size: 2rem;
+    max-width: 50ch;
+    padding: 3rem;
+}
