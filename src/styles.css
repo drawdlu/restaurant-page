@@ -55,6 +55,11 @@ header nav button:hover {
     transition: color .2s ease-in-out;
 }
 
+header nav button.active {
+    box-shadow: inset 2px 2px 20px 2px var(--neon-red),
+                2px 2px 20px 7px var(--neon-red);
+}
+
 /* Footer */
 
 footer {

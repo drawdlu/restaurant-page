@@ -4,6 +4,8 @@ import loadHomePage from "./scripts/home";
 loadHomePage();
 
 const nav = document.querySelector("nav")
+const activeTabButton = document.querySelector("nav ul li:nth-child(1) button");
+activeTabButton.classList.add("active");
 
 nav.addEventListener("click", (e) => {
     const navText = e.target.textContent
