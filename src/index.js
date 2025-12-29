@@ -1,5 +1,6 @@
 import "./styles.css";
 import loadHomePage from "./scripts/home";
+import loadMenuPage from "./scripts/menu";
 
 loadHomePage();
 
@@ -15,7 +16,7 @@ nav.addEventListener("click", (e) => {
             loadPage(loadHomePage);
             break;
         case "Menu":
-            console.log("Menu pressed");
+            loadPage(loadMenuPage);;
             break;
         case "Contact Us":
             console.log("Contact Us pressed");
