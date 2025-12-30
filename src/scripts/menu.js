@@ -41,7 +41,7 @@ function createMenuObjects() {
             dragonfruit-citrus dressing.`
         ),
 
-        new MenuItem("Midnight Packets",
+        new MenuItem("Midnight Packet",
             gyoza,
             `Pan-seared pork and cabbage dumplings with a 
              "short-circuit" black vinegar and chili dipping 
